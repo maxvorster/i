@@ -8,16 +8,17 @@
       padding: 0;
       height: 100%;
       overflow: hidden;
+      background: black;
     }
-    iframe {
-      border: none;
+    img {
       width: 100%;
       height: 100%;
+      object-fit: contain;
       display: block;
     }
   </style>
 </head>
 <body>
-  <iframe src="http://108.29.208.23:8085/img/video.mjpeg"></iframe>
+  <img src="http://108.29.208.23:8085/img/video.mjpeg" alt="MJPEG Stream">
 </body>
 </html>
